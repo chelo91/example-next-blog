@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Header />
-        <div className="container">
+        <div id="div-main" className="container">
           {children}
         </div>
       </body>

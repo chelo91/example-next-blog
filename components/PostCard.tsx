@@ -3,6 +3,7 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Link from 'next/link';
 import { PostType } from "@/types/postType";
+import useBooleanLocalStorage from '@/hooks/useBooleanLocalStorage';
 
 const PostCard: React.FC<{ post: PostType }> = ({ post }) => {
   return (

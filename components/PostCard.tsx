@@ -1,7 +1,6 @@
 'use client';
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import Badge from 'react-bootstrap/Badge';
 import Link from 'next/link';
 import { PostType } from "@/types/postType";
 import FavButton from '@/components/FavButton';

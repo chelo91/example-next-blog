@@ -9,8 +9,7 @@ const Header: React.FC = () => {
             <Container>
                 <Navbar.Brand href="/">Capy Blog</Navbar.Brand>
                 <Nav className="me-auto">
-                    <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link href="/posts">Posts</Nav.Link>
+                    <Nav.Link href="/">Posts</Nav.Link>
                     <Nav.Link href="https://chelo.xyz" target="_blank" rel="noopener noreferrer">Sombre mi</Nav.Link>
                 </Nav>
             </Container>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./globals.css";
 import Header from "@/components/Header";
+import PostBreadcrumb from '@/components/PostBreadcrumb';
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body>
         <Header />
         <div id="div-main" className="container">
+          <PostBreadcrumb />
           {children}
         </div>
       </body>

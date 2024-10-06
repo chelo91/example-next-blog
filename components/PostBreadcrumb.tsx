@@ -8,9 +8,12 @@ const PostBreadcrumb: React.FC = () => {
 
     return (
         <Breadcrumb>
-            <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
-            <Breadcrumb.Item href="/posts">Posts</Breadcrumb.Item>
-            {pathname != "/posts" && <Breadcrumb.Item href={pathname}>Post actual</Breadcrumb.Item>}
+
+            {pathname != "/" &&
+                <>
+                    <Breadcrumb.Item href="/">Posts</Breadcrumb.Item>
+                    <Breadcrumb.Item href={pathname}>Post actual</Breadcrumb.Item>
+                </>}
         </Breadcrumb>
     );
 };

@@ -10,7 +10,7 @@ export default function Post({ params }: { params: { slug: string } }) {
 
     useEffect(() => {
         if (!myPost) {
-            router.push('/posts');
+            router.push('/');
         }
     }, [myPost, router]);
 

@@ -8,7 +8,7 @@ import FavButton from '@/components/FavButton';
 
 const PostCard: React.FC<{ post: PostType }> = ({ post }) => {
   return (
-    <Link href={`/posts/${post.slug}`}>
+    <Link href={`/${post.slug}`}>
       <Card>
         <Card.Body>
           <Card.Title>

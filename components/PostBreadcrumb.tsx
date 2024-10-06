@@ -1,5 +1,4 @@
 'use client';
-import { PostType } from "@/types/postType";
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import { usePathname } from 'next/navigation'
 
